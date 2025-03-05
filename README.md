@@ -16,7 +16,7 @@ When you get your key, run the following
 
 `export CENSUS_API_KEY=<your key>`
 
-where "<your key>" is your key
+where "`<your key`>" is your key
 
 
 ## Running 
