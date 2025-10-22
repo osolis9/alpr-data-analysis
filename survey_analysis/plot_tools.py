@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Relative path to CSV (same folder as script)
-file_path = Path(__file__).parent / "alpr_survey_results.csv"
+file_path = Path(__file__).parent / "bay_responses.csv"
 
 # Update the column name exactly as in your CSV
 col = 'Which of the following surveillance tools have you heard of or seen in your city? (Select all that apply) (8dl9hmt)'

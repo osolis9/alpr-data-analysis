@@ -5,7 +5,7 @@ import textwrap
 import numpy as np
 
 # Load CSV
-file_path = Path(__file__).parent / "alpr_survey_results.csv"
+file_path = Path(__file__).parent / "bay_responses.csv"
 df = pd.read_csv(file_path)
 
 # Map long column names to descriptive short names
@@ -101,6 +101,7 @@ for aware_col in awareness_cols:
 
     # Save the figure
     filename = output_dir / f"{aware_col}_support.png"
+    print(f"filename downloaded: {filename}")
     plt.savefig(filename)
     plt.close()
 
